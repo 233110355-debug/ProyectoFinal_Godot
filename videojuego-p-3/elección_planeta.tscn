@@ -1,0 +1,251 @@
+[gd_scene load_steps=21 format=3 uid="uid://c5j2skk3ht62p"]
+
+[ext_resource type="Texture2D" uid="uid://b0310y3jdr5bq" path="res://NightSkyHDRI006_4K_TONEMAPPED.jpg" id="1_424m2"]
+[ext_resource type="PackedScene" uid="uid://boilml1brc5tl" path="res://P_Videojuego/Modelos glb/Planeta1.glb" id="1_jxfxj"]
+[ext_resource type="PackedScene" uid="uid://dulpqalr3cghn" path="res://P_Videojuego/Modelos glb/Planeta2.glb" id="2_n3a6r"]
+[ext_resource type="PackedScene" uid="uid://dsos0lsumwilp" path="res://P_Videojuego/Modelos glb/Planeta3.glb" id="3_424m2"]
+[ext_resource type="FontFile" uid="uid://ctunm7dqbmh3j" path="res://Fuentes/super_bouncer/Super Bouncer.ttf" id="4_n3a6r"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_48r03"]
+panorama = ExtResource("1_424m2")
+energy_multiplier = 5.0
+
+[sub_resource type="Sky" id="Sky_qyd0g"]
+sky_material = SubResource("PanoramaSkyMaterial_48r03")
+
+[sub_resource type="Environment" id="Environment_bcsco"]
+background_mode = 2
+sky = SubResource("Sky_qyd0g")
+
+[sub_resource type="Animation" id="Animation_qyd0g"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_48r03"]
+resource_name = "RotacionP1"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.28560567, 0, 0), Vector3(0.286234, 6.2831855, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bcsco"]
+_data = {
+&"RESET": SubResource("Animation_qyd0g"),
+&"RotacionP1": SubResource("Animation_48r03")
+}
+
+[sub_resource type="Animation" id="Animation_m77kf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_q3rx8"]
+resource_name = "RotationP2"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.28560567, 0, 0), Vector3(0.286234, 6.2831855, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_74hg3"]
+_data = {
+&"RESET": SubResource("Animation_m77kf"),
+&"RotationP2": SubResource("Animation_q3rx8")
+}
+
+[sub_resource type="Animation" id="Animation_bysv0"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_s83j4"]
+resource_name = "RotationP3"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.24989624, 0, 0), Vector3(0.24958208, 6.2831855, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ecl42"]
+_data = {
+&"RESET": SubResource("Animation_bysv0"),
+&"RotationP3": SubResource("Animation_s83j4")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_424m2"]
+bg_color = Color(0.2901961, 0.18431373, 0.5686275, 0.78431374)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_48r03"]
+bg_color = Color(0.8509804, 0.47058824, 0.5176471, 0.78431374)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qyd0g"]
+bg_color = Color(0.7372549, 0.5647059, 0.34901962, 0.78431374)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="ElecciónPlaneta" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_bcsco")
+
+[node name="Planeta1" parent="." instance=ExtResource("1_jxfxj")]
+transform = Transform3D(0.845, 0, 0, 0, 0.8450002, 0, 0, 0, 0.8450002, -4.580482, 0.022267818, -0.20886612)
+
+[node name="P1_Animacion" type="AnimationPlayer" parent="Planeta1"]
+libraries = {
+&"": SubResource("AnimationLibrary_bcsco")
+}
+autoplay = "RotacionP1"
+
+[node name="Planeta2" parent="." instance=ExtResource("2_n3a6r")]
+transform = Transform3D(0.9999999, 0, 0, 0, 0.9999999, 0, 0, 0, 1, -0.03623867, 0.00747627, -0.30123806)
+
+[node name="P2_Animacion" type="AnimationPlayer" parent="Planeta2"]
+libraries = {
+&"": SubResource("AnimationLibrary_74hg3")
+}
+autoplay = "RotationP2"
+
+[node name="Planeta3" parent="." instance=ExtResource("3_424m2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.713379, 0.034650475, -0.3589933)
+
+[node name="P3_Animacion" type="AnimationPlayer" parent="Planeta3"]
+libraries = {
+&"": SubResource("AnimationLibrary_ecl42")
+}
+autoplay = "RotationP3"
+
+[node name="IU" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="IU"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="IU/Control"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 49.0
+offset_right = 1123.0
+offset_bottom = 138.0
+theme_override_fonts/font = ExtResource("4_n3a6r")
+theme_override_font_sizes/font_size = 80
+text = "Elige un planeta para explorar"
+
+[node name="B_Planeta1" type="Button" parent="IU/Control"]
+layout_mode = 0
+offset_left = 141.0
+offset_top = 463.0
+offset_right = 251.0
+offset_bottom = 532.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_424m2")
+text = "KALAMYR"
+
+[node name="B_Planeta2" type="Button" parent="IU/Control"]
+layout_mode = 0
+offset_left = 521.0
+offset_top = 463.0
+offset_right = 630.0
+offset_bottom = 533.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_48r03")
+text = "FUNGORA"
+
+[node name="B_Planeta3" type="Button" parent="IU/Control"]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 463.0
+offset_right = 1020.0
+offset_bottom = 531.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_qyd0g")
+text = "CALCYRA"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033652782, 0.9909339, 5.187125)
