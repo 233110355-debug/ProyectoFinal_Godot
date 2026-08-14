@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://hu6wodonncut"]
+
+[ext_resource type="PackedScene" uid="uid://ccrdmmi50wdm2" path="res://Models/Dalu/suelo.glb" id="1_yhr2q"]
+
+[node name="Fungora" type="Node3D" unique_id=1908667810]
+
+[node name="suelo" parent="." unique_id=1110950323 instance=ExtResource("1_yhr2q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.030105114, 0.33181715, 0.2978778)
