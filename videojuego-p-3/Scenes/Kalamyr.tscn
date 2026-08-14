@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dunfrvojkgyto"]
+
+[ext_resource type="PackedScene" uid="uid://d3hu7yavg523o" path="res://Models/Tentaculo.glb" id="1_qddku"]
+[ext_resource type="PackedScene" uid="uid://cjimp3fg0231o" path="res://Models/Krakencito_1.glb" id="2_61ufm"]
+
+[node name="Kalamyr" type="Node3D" unique_id=1206400813]
+
+[node name="Tentaculo" parent="." unique_id=237182524 instance=ExtResource("1_qddku")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.146901, -1.1920929e-07, 0.78010464)
+
+[node name="Krakencito_1" parent="." unique_id=1426853271 instance=ExtResource("2_61ufm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
