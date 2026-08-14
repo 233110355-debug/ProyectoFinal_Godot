@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3hu7yavg523o"
-path="res://.godot/imported/Tentaculo.glb-4655eb470197e67a108f2c8dcc5cf2f1.scn"
+path="res://.godot/imported/Tentaculo.glb-264c15fa80e40cf2132ae10cc8a452bc.scn"
 
 [deps]
 
-source_file="res://Models/Tentaculo.glb"
-dest_files=["res://.godot/imported/Tentaculo.glb-4655eb470197e67a108f2c8dcc5cf2f1.scn"]
+source_file="res://Models/Emma/Tentaculo.glb"
+dest_files=["res://.godot/imported/Tentaculo.glb-264c15fa80e40cf2132ae10cc8a452bc.scn"]
 
 [params]
 

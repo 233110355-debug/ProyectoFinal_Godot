@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blki7g0hwk141"
-path.s3tc="res://.godot/imported/Muro_1_Walls.png-e945ea986829f4b640b959d11e7d0343.s3tc.ctex"
+uid="uid://mdnmf2mh7irv"
+path.s3tc="res://.godot/imported/Krakencito_1_Krakencito.png-30d90a345f8aa077ead227a4d2d88f2a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "972a34e06fcec90078fe3f702bd8957e"
+"md5": "3024b2ea9c2ed16196e8f42d9a1cf018"
 }
 
 [deps]
 
-source_file="res://Models/Muro_1_Walls.png"
-dest_files=["res://.godot/imported/Muro_1_Walls.png-e945ea986829f4b640b959d11e7d0343.s3tc.ctex"]
+source_file="res://Models/Emma/Krakencito_1_Krakencito.png"
+dest_files=["res://.godot/imported/Krakencito_1_Krakencito.png-30d90a345f8aa077ead227a4d2d88f2a.s3tc.ctex"]
 
 [params]
 

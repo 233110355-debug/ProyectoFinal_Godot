@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b65flnmem3a25"
-path.s3tc="res://.godot/imported/Muro_2_Walls.png-d26ae24fe4578df11f22ee098f3a903f.s3tc.ctex"
+uid="uid://cbar2d2id1wxq"
+path.s3tc="res://.godot/imported/Tentaculo_Tentaculo.png-9f98ad01c3399fcdd1e605bfb9251e83.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "972a34e06fcec90078fe3f702bd8957e"
+"md5": "20df4171057a866e9a956222c55c028b"
 }
 
 [deps]
 
-source_file="res://Models/Muro_2_Walls.png"
-dest_files=["res://.godot/imported/Muro_2_Walls.png-d26ae24fe4578df11f22ee098f3a903f.s3tc.ctex"]
+source_file="res://Models/Emma/Tentaculo_Tentaculo.png"
+dest_files=["res://.godot/imported/Tentaculo_Tentaculo.png-9f98ad01c3399fcdd1e605bfb9251e83.s3tc.ctex"]
 
 [params]
 

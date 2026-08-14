@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mdnmf2mh7irv"
-path.s3tc="res://.godot/imported/Krakencito_1_Krakencito.png-6c8ad3f7564f9679eaeafa6edce6b041.s3tc.ctex"
+uid="uid://l1t47llehmhi"
+path.s3tc="res://.godot/imported/Tentaculo_TentaculoNormal.png-59b7d912f13e64f4f0eb7eb0b83caabc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "3024b2ea9c2ed16196e8f42d9a1cf018"
+"md5": "239958135943e841e46d2fefe781e612"
 }
 
 [deps]
 
-source_file="res://Models/Krakencito_1_Krakencito.png"
-dest_files=["res://.godot/imported/Krakencito_1_Krakencito.png-6c8ad3f7564f9679eaeafa6edce6b041.s3tc.ctex"]
+source_file="res://Models/Emma/Tentaculo_TentaculoNormal.png"
+dest_files=["res://.godot/imported/Tentaculo_TentaculoNormal.png-59b7d912f13e64f4f0eb7eb0b83caabc.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://Instancias/Kalamyr_instancias/Tentaculo_TentaculoNormal.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

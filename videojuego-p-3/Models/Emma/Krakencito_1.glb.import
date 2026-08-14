@@ -4,16 +4,16 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cjimp3fg0231o"
-path="res://.godot/imported/Krakencito_1.glb-4e859f3c97a36f949014cbbaa723fa8f.scn"
+path="res://.godot/imported/Krakencito_1.glb-1f72cac3f3dce04385155c1b87ad7ca7.scn"
 
 [deps]
 
-source_file="res://Models/Krakencito_1.glb"
-dest_files=["res://.godot/imported/Krakencito_1.glb-4e859f3c97a36f949014cbbaa723fa8f.scn"]
+source_file="res://Models/Emma/Krakencito_1.glb"
+dest_files=["res://.godot/imported/Krakencito_1.glb-1f72cac3f3dce04385155c1b87ad7ca7.scn"]
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

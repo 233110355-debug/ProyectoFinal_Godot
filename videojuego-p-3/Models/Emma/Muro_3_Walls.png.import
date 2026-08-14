@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://l1t47llehmhi"
-path.s3tc="res://.godot/imported/Tentaculo_TentaculoNormal.png-3e28978efcc77a5439225a8892e992da.s3tc.ctex"
+uid="uid://dql05gdfcln38"
+path.s3tc="res://.godot/imported/Muro_3_Walls.png-f02e794600b6fe0122bef77feecfd3c3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "239958135943e841e46d2fefe781e612"
+"md5": "972a34e06fcec90078fe3f702bd8957e"
 }
 
 [deps]
 
-source_file="res://Models/Tentaculo_TentaculoNormal.png"
-dest_files=["res://.godot/imported/Tentaculo_TentaculoNormal.png-3e28978efcc77a5439225a8892e992da.s3tc.ctex"]
+source_file="res://Models/Emma/Muro_3_Walls.png"
+dest_files=["res://.godot/imported/Muro_3_Walls.png-f02e794600b6fe0122bef77feecfd3c3.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Instancias/Kalamyr_instancias/Tentaculo_TentaculoNormal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

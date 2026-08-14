@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://keggwda5e3jo"
-path="res://.godot/imported/Muro_1.glb-a9c71f8cd76d427ed89a506e4e3fa76d.scn"
+uid="uid://bhytg8ns5d6pk"
+path="res://.godot/imported/Muro_3.glb-dab981e3795f8e203aaed617af66b323.scn"
 
 [deps]
 
-source_file="res://Models/Muro_1.glb"
-dest_files=["res://.godot/imported/Muro_1.glb-a9c71f8cd76d427ed89a506e4e3fa76d.scn"]
+source_file="res://Models/Emma/Muro_3.glb"
+dest_files=["res://.godot/imported/Muro_3.glb-dab981e3795f8e203aaed617af66b323.scn"]
 
 [params]
 
