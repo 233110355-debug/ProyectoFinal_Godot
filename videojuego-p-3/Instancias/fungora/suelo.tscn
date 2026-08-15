@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://f3ol8itah3bf"]
+
+[ext_resource type="PackedScene" uid="uid://ccrdmmi50wdm2" path="res://Models/Dalu/suelo.glb" id="1_diuvw"]
+
+[node name="suelo" unique_id=1906498878 instance=ExtResource("1_diuvw")]
+
+[node name="piso relieve" parent="." index="0" unique_id=1784910742]
+transform = Transform3D(11.895893, 0, 0, 0, -0.09966129, 0, 0, 0, 12.357639, -0.12814012, 0.111328125, -1.8640466)
